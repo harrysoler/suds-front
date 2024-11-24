@@ -1,7 +1,13 @@
-import { Header } from "@/components";
+import { Header } from "@/components"; 
+import Cards from "./components/cards"; 
 
 function App() {
-  return <Header />;
+  return (
+    <div>
+      <Header />
+      <Cards /> 
+    </div>
+  );
 }
 
 export default App;
